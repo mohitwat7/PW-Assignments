@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #129b9b;
+    padding: 4px 10px;
+    cursor: pointer;
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #129b9b;
+    border: 1px solid #000000;
+}
+header{
+    padding: 15px 0px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav ul{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+ 
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search{
+    gap: 30px;
+    display: flex;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main-left{
+    width: 60%;
+    padding: 8%;
+}
+
+.main-left h1 span{
+    color: #129b9b;
+    font-weight: 800;
+    size: 38px;
+    padding: 8px;
+    background-color: #dfdfe0;
+}
+
+.main-left p{
+    font-weight: 500;
+}
+
+.main-left p span{
+    font-size: 15px;
+    color: #129b9b;
+    font-weight: 700;
+}
+
+.main-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-right-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}   
+
+.foot{
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+.foot ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;    
+}
+
+.foot ul li i:hover{
+    font-weight: 900;
+}
